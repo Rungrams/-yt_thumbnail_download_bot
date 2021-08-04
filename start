@@ -1,0 +1,15 @@
+var button = [
+  [
+    { title: "🤖BOT REPO", url: "https://t.me/bot_repo" },
+    { title: "HELP", command: "/help " }
+  ],
+  [
+    { title: "👥 GROUP", url: "https://t.me/run_gram" },
+    { title: "📢Channel", url: "https://t.me/rungram" }
+  ],
+  [{ title: "🔔 SUBSCRIBE", url: "https://www.youtube.com/channel/UCMhd_HrdADzW-AU-ni5_-Nw" }]
+]
+Bot.sendInlineKeyboard(
+  button,
+  "👋 USER\n\n i am a bot that can download any thumbnail from any direct download video \n maintain by @rungram"
+)
